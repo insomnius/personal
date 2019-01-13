@@ -16,6 +16,7 @@ github_username:  inisomnius
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 # logo: "https://s.gravatar.com/avatar/77125555f2b03f5ed50547842a87ef0f" # Site logo, also used in jekyll-seo-tag
+image: "https://avatars1.githubusercontent.com/u/20650401"
 repo: "https://github.com/insomnius"
 disqus: "insomnius-18" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://s.gravatar.com/avatar/77125555f2b03f5ed50547842a87ef0f" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
