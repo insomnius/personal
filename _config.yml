@@ -64,12 +64,12 @@ collections:
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
 
-# defaults:
-#   -
-#     scope:
-#       path: "/"
-#     values:
-#       image: "/assets/default-social-image.png" # Default image for sharing
+defaults:
+  -
+    scope:
+      path: "/"
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Twitter: "#0d94e7"
