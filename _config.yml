@@ -25,7 +25,7 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # Build settings
 markdown: kramdown
-theme: alembic-jekyll-theme
+them: alembic-jekyll-theme
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
@@ -34,6 +34,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-default-layout
   - jekyll-feed
+  - jekyll-remote-theme
   - jemoji
 
 paginate: 5 # jekyll-paginate > items per page
@@ -64,12 +65,12 @@ collections:
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
 
-# defaults:
-#   -
-#     scope:
-#       path: "/"
-#     values:
-#       image: "/assets/default-social-image.png" # Default image for sharing
+defaults:
+  -
+    scope:
+      path: "/"
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Twitter: "#0d94e7"
