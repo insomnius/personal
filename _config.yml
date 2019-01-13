@@ -25,7 +25,7 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # Build settings
 markdown: kramdown
-them: alembic-jekyll-theme
+theme: alembic-jekyll-theme
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
