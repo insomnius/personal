@@ -10,7 +10,7 @@ layout: none
   "background_color": "{{ site.manifest.background_color | default: '#ffffff' }}",
   "icons": [
     {
-      "src": "{{ site.logo }}",
+      "src": "{{ site.image }}",
       "sizes": "512x512"
     }
   ],
