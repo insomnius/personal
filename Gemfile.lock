@@ -129,7 +129,6 @@ DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-admin
   jekyll-feed
-  tzinfo-data
 
 BUNDLED WITH
    2.0.1
