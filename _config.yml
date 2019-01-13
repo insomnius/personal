@@ -21,7 +21,7 @@ disqus: "insomnius-18" # Blog post comments, uncomment the option and set the si
 avatarurl: "https://s.gravatar.com/avatar/77125555f2b03f5ed50547842a87ef0f" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 # google_analytics: ''
 service_worker: true # Will turn off the service worker if set to false
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # Build settings
 markdown: kramdown
