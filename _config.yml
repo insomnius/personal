@@ -34,7 +34,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-default-layout
   - jekyll-feed
-  - jekyll-remote-theme
   - jemoji
 
 paginate: 5 # jekyll-paginate > items per page
