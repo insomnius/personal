@@ -11,6 +11,8 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 gem "alembic-jekyll-theme"
 
+gem "nokogiri", ">= 1.10.4"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
