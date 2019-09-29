@@ -339,4 +339,11 @@ Now, shut down the service, with Ctrl + C.
 
 ![Server terminating](/assets/Screenshot%20from%202019-09-29%2017-38-29.png)
 
-You will see that after `^C` the service will try to drain out all leftover jobs before it's shutdown.
+You will see that after `^C` the service will drain out all leftover jobs before it's shutdown.
+
+
+## Conclusion
+
+In-app queue is very easy to implement with Go. If you want to see a source code, kindly check [this repo](https://github.com/insomnius/inapp-queue).
+
+This is my first time to write tech article like this, please tell me if you have any suggestion with my write. Thanks, i hope you learn something new today!
