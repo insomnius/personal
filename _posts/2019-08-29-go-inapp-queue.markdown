@@ -1,5 +1,9 @@
 ---
 title: Golang In-app Queue
+categories: [tech, golang]
+comments: true
+layout: post
+date:   2019-08-29 10:00:00 +0700
 ---
 
 This is my second post in this site, as i mentioned before. I want to use this site as a platform to share my knowledge. This time i want to share a topic about in-app queue, maybe some of you already know what is queue system. But for the sake of others who dont know, i will discuss it a little.
