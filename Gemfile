@@ -8,10 +8,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll"
 gem "alembic-jekyll-theme"
 
-gem "nokogiri", ">= 1.10.4"
+gem "nokogiri"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
 end
 
-gem "rack", ">= 1.6.12"
+gem "rack"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
