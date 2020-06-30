@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
 
 Hello, my name is Muhammad Arief Rahman and i call myself Insomnius in the world of software engineering. I'm currently work at Bukalapak as a Back-end Software Engineer in Policy and Seller Quality Squads. Most of my job is to create a micro service with tech stack like Go, Mongodb, Kafka, RabbitMQ and other complex architecture. The aim of our squad is to ensure that all product following the current rule, make seller performance calculation based on data scientist formula, punish seller with bad performance and improve the performance of a seller itself with a given treatment based on each rule.
