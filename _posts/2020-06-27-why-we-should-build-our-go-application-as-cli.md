@@ -84,7 +84,7 @@ Flags:
 Use "our_service [command] --help" for more information about a command.
 ```
 
-Now, doing integration test with your Golang binary is so easy. If you want to test mysql connection, just type `./our_service ping:mysql` and it will run based on the connection logic of your application. Or if you want to run script in your golang binary just type `./our_service script:add_to_cart [user_id] [product_id]`. 
+Now, doing integration test with your Golang binary is so easy. If you want to test mysql connection, just type `./our_service ping:mysql` and it will run based on the connection logic of your application. Or if you want to run script in your golang binary just type `./our_service script:add_to_cart [user_id] [product_id]`.
 
 You can even install your binary into you `/usr/local/bin` by using `go install`, then next time you could run your service just with `our_service run:api`, no need to compiling it.
 
