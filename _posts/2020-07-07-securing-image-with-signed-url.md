@@ -54,7 +54,7 @@ Get image
 So the main key of the implementation is the algorithm and secret key that not exposed to a client, both of this must be same when retrieving and getting the image. Also, this is already supported by common used frameworks right now.
 
 - [Laravel](https://laravel.com/docs/7.x/urls#signed-urls)
-- [Djagon](https://docs.djangoproject.com/en/3.0/topics/signing/)
+- [Django](https://docs.djangoproject.com/en/3.0/topics/signing/)
 
 Yes, i know. It maybe not fully protecting the data being access by a random stranger online **if they had the link**. But it does have some protection because it has to be accessed within certain time and after that, the data will not remain available.
 
