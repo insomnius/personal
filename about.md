@@ -14,7 +14,7 @@ Basically i make this site to share my way of thinking, my knowledge and experie
 
 ### Support Me
 
-1. (Order my fiverr gigs)[https://www.fiverr.com/insomnius_]
+1. [Order my fiverr gigs](https://www.fiverr.com/insomnius)
 
 ### Get in Touch With Me
 {% include button.html text="Github" icon="github" link="https://github.com/insomnius" color="#333" %} {% include button.html text="Twitter" icon="twitter" link="https://twitter.com/insomnius_" color="#1da1f2" %} {% include button.html text="Linkedin" link="https://linkedin.com/in/insomnius" color="#0077b5" icon="linkedin" %}
