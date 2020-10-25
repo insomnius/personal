@@ -73,6 +73,7 @@ Build an opinion mining application that analyzes tweet sentiment aimed at the p
 ### Contact
 
 Email: aliana.arib@gmail.com
+
 Telegram: @insomnius
 
 ### Get in Touch With Me
