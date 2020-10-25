@@ -14,7 +14,7 @@ My intention in creating this website is to share my knowledge so that others ca
 
 ### Employment History
 
-#### Budi Luhur University - Web Developer - September 2016 to July 2017
+**Budi Luhur University - Web Developer - September 2016 to July 2017**
 
 Build lecturer management system, allowing the lecturer to do online attendance checks of students, managing guidance students, have dynamic access control and e-learning integration. Works directly below the head of the campus technology division, gives direct reports and receives direct feedback.
 
@@ -22,7 +22,7 @@ Migrating and synchronizing the old lecturer management system, including databa
 
 Keyword: PHP, nginx, bootstrap, oracle database server, codeigniter
 
-#### PT Jari Solusi International - Web Developer - June 2017 to June 2018
+**PT Jari Solusi International - Web Developer - June 2017 to June 2018**
 
 Build a collection management system, monitoring thousands of debt-collectors doing their work, including: online attendance check with desired office location, managing how much workers can carry an amount of money, creating a dashboard to monitor and create reports based on their performance. Win several tender because of our user friendly application and performance, despite having a small team and new company.
 
@@ -32,7 +32,7 @@ Introducing code repository and new workflow with git, upgrading and refactoring
 
 Keyword: PHP, nginx, laravel, mysql.
 
-#### Bukalapak - Software Engineer Backend in Transaction Safety Squads - June 2018 to December 2018
+**Bukalapak - Software Engineer Backend in Transaction Safety Squads - June 2018 to December 2018**
 
 Maintaining Bukalapak legacy fraud detection system, create a fraud tracker for all game voucher transactions in Bukalapak which can further be used by data analysts to create a fraud rule.
 
@@ -40,7 +40,7 @@ Collaborating with data scientists to create bot detection in user registrations
 
 Keyword: golang, ruby, ruby on rails, mysql, rabbitmq, kafka, ETL, redash, event driven system.
 
-#### Bukalapak - Software Engineer Backend in Policy and Seller Quality Squads - December 2018 to September 2019
+**Bukalapak - Software Engineer Backend in Policy and Seller Quality Squads - December 2018 to September 2019**
 
 Maintain a policy detection system to keep Bukalapak market safe from products that are banned by the government such as illegal drugs, alcohol, endangered animals, and other provisions. Provides policy operations teams with dashboards and other features that make their job easier. Ban one million products every week with our automation system.
 
@@ -48,7 +48,7 @@ Collaborating with data scientists to create a seller scoring system which is wi
 
 Keyword: golang, ruby, ruby on rails, mysql, rabbitmq, kafka, ETL, redash, event driven system, apache hadoop, hdfs, apache hudi, apache spark, apache presto.
 
-#### Bukalapak - Lead Engineer in Merchant Transaction and Quality Squads- September 2019 to Present
+**Bukalapak - Lead Engineer in Merchant Transaction and Quality Squads- September 2019 to Present**
 
 Maintain the flow of seller transactions at Bukalapak, including accepting, delivering, refunding and remitting transactions. Create precise monitoring, logging and alerts using kibana, datadog and opsgenie. Set up a reliable system that handles ~ 6 million remittance transactions per day.
 
@@ -62,11 +62,11 @@ Keyword: golang, ruby, ruby on rails, google cloud platform, bigquery, event dri
 
 ### Other Experiences
 
-#### Hijra.id - Code Contributor - September 2017 to January 2019
+**Hijra.id - Code Contributor - September 2017 to January 2019**
 
 Create a business logic API for Islamic event applications. Management team of several engineers to contribute to the core of the application.
 
-#### Software Engineer Intern - Attorney General's Office of Indonesia (Kejaksaan Republik Indonesia) - April 2017 to May 2017
+**Software Engineer Intern - Attorney General's Office of Indonesia (Kejaksaan Republik Indonesia) - April 2017 to May 2017**
 
 Build an opinion mining application that analyzes tweet sentiment aimed at the prosecutor's office to evaluate performance and improve its public relations division so that it will know more about popular opinion. The application itself has a 90% of sentiment accuracy.
 
