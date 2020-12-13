@@ -1,0 +1,71 @@
+I"�<p><img src="/assets/Hero_ccims_18366839824_0.jpg" alt="Securing Image With Signed URL" /></p>
+
+<p>A few days ago, I talked with my friend who works in startup which provide law related service. His company applied <a href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/banking-payment/issuance/id-verification/know-your-customer">KYC</a> to get users verified with it’s identity card, one of his concern is that the way he retrieve the image of user’s identity. Anyone with the link of the image, could open it anytime.</p>
+
+<p>If the API to retrieve those image url is leaked, or the image link inadvertently shared to the internet, users will be harmed. To prevent that happen, we need to securing our API both to retrieve the URL and rendering the image.</p>
+
+<p>After surfing the internet, i’ve found a terms of signed url. So, it’s basically a URL with a signature and an expire time to accessing the resource.  This is example from GCS signed URL.</p>
+
+<p>Without signature:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://storage.googleapis.com/example-bucket/cat.jpeg
+</code></pre></div></div>
+
+<p>With signature:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://storage.googleapis.com/example-bucket/cat.jpeg?X-Goog-Algorithm=
+GOOG4-RSA-SHA256&amp;X-Goog-Credential=example%40example-project.iam.gserviceaccount
+.com%2F20181026%2Fus-central-1%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20181026T18
+1309Z&amp;X-Goog-Expires=900&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=247a2aa45f16
+9edf4d187d54e7cc46e4731b1e6273242c4f4c39a1d2507a0e58706e25e3a85a7dbb891d62afa849
+6def8e260c1db863d9ace85ff0a184b894b117fe46d1225c82f2aa19efd52cf21d3e2022b3b868dc
+c1aca2741951ed5bf3bb25a34f5e9316a2841e8ff4c530b22ceaa1c5ce09c7cbb5732631510c2058
+0e61723f5594de3aea497f195456a2ff2bdd0d13bad47289d8611b6f9cfeef0c46c91a455b94e90a
+66924f722292d21e24d31dcfb38ce0c0f353ffa5a9756fc2a9f2b40bc2113206a81e324fc4fd6823
+a29163fa845c8ae7eca1fcf6e5bb48b3200983c56c5ca81fffb151cca7402beddfc4a76b13344703
+2ea7abedc098d2eb14a7
+</code></pre></div></div>
+
+<p>Common architectural pattern which used storage bucket as it’s component maybe looks like this.</p>
+
+<p><img src="/assets/Securing%20Image%20With%20Signed%20URL-1.png" alt="Image 1" /></p>
+
+<p>And here is the illustration about how url signature works.</p>
+
+<p>Retrieve user data</p>
+
+<p><img src="/assets/securing-image-with-signed-url-3-Get%20Image%20URL.png" alt="Retrieve user data" /></p>
+
+<p>Get image</p>
+
+<p><img src="/assets/securing-image-with-signed-url-3-Retrieve%20Image.png" alt="Get image" /></p>
+
+<p>So the main key of the implementation is the algorithm and secret key that not exposed to a client, both of this must be same when retrieving and getting the image. Also, this is already supported by common used frameworks right now.</p>
+
+<ul>
+  <li><a href="https://laravel.com/docs/7.x/urls#signed-urls">Laravel</a></li>
+  <li><a href="https://docs.djangoproject.com/en/3.0/topics/signing/">Django</a></li>
+</ul>
+
+<p>Yes, i know. It maybe not fully protecting the data being access by a random stranger online <strong>if they had the link</strong>. But it does have some protection because it has to be accessed within certain time and after that, the data will not remain available.</p>
+
+<p>So, the conclusion is signed URL is the best way to protecting your image / files (AFAIK). You may choose to implement it or not at all,  depends on your cases. But the real software engineer is the one that place the right thing in the right place. Just like uncle Bob said, in it’s speech about the scribe’s oath (seriously you should check it out). Never produce harmfull code.</p>
+
+<hr />
+
+<p>Example:</p>
+
+<ul>
+  <li><a href="https://github.com/rudestewing/api-mypost#penjelasan-singkat">Laravel</a></li>
+  <li><a href="https://github.com/insomnius/example-signed-url">Golang</a></li>
+  <li>Comment out your example in the comment section</li>
+</ul>
+
+<p>References:</p>
+
+<p><a href="https://www.youtube.com/watch?v=Tng6Fox8EfI&amp;t=536s">The scribe’s oath by uncle Bob. Seriously, watch this!!</a></p>
+
+<p><a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-signed-urls.html">AWS Cloudfront private content signed urls</a></p>
+
+<p><a href="https://cloud.google.com/storage/docs/access-control/signed-urls">GCS Storage Access Control with Signed URLS</a></p>
+:ET

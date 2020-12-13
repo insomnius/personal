@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll"
+gem "jekyll-default-layout"
 gem "alembic-jekyll-theme"
 
 gem "nokogiri"
