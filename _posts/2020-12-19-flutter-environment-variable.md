@@ -7,7 +7,7 @@ layout: post
 comments: true
 ---
 
-1. ![Photo by Konstantin Dyadun](/assets/photo-project-ideas_sunday-morning.jpg)
+![Photo by Konstantin Dyadun](/assets/photo-project-ideas_sunday-morning.jpg)
 
 ### What is environment variable?
 
@@ -199,5 +199,6 @@ Just like that! We could do **environment variables like** implementation in flu
 
 ### Links
 
-Example: https://github.com/coronatorid/coronator
-Subscribe to my youtube channel: https://www.youtube.com/channel/UC7GkDLtOSGMkr2HEVJ1rJPQ
+Example: [https://github.com/coronatorid/coronator](https://github.com/coronatorid/coronator)
+
+Subscribe to my youtube channel: [https://www.youtube.com/channel/UC7GkDLtOSGMkr2HEVJ1rJPQ](https://www.youtube.com/channel/UC7GkDLtOSGMkr2HEVJ1rJPQ)
