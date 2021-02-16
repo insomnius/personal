@@ -12,7 +12,7 @@ My intention in creating this website is to share my knowledge so that others ca
 
 > If you would not be forgotten as soon as you're dead, either write something worth reading or do something worth writing. ~Benjamin Franklin
 
-### Employment History
+<!-- ### Employment History
 
 **Budi Luhur University - Web Developer - September 2016 to July 2017**
 
@@ -68,7 +68,7 @@ Create a business logic API for Islamic event applications. Management team of s
 
 **Software Engineer Intern - Attorney General's Office of Indonesia (Kejaksaan Republik Indonesia) - April 2017 to May 2017**
 
-Build an opinion mining application that analyzes tweet sentiment aimed at the prosecutor's office to evaluate performance and improve its public relations division so that it will know more about popular opinion. The application itself has a 90% of sentiment accuracy.
+Build an opinion mining application that analyzes tweet sentiment aimed at the prosecutor's office to evaluate performance and improve its public relations division so that it will know more about popular opinion. The application itself has a 90% of sentiment accuracy. -->
 
 ### Contact
 
